@@ -1,0 +1,13 @@
+{
+    "company_name": "MiKaKi",
+    "django_name": "mikaki",
+    "full_name": "Kalume Kitsao",
+    "nickname": "MiKaKi",
+    "project_name": "mikaki",
+    "email": "kalumewakitsao@gmail.com",
+    "project_description": "Django project developed from the MiKaKi cookie cutter, ni God",
+    "project_url": "https://github.com/kalumewakitsao/dummy",
+    "release_date": "2021-05-31",
+    "year": "2021",
+    "version": "0.0.1a1"
+}
