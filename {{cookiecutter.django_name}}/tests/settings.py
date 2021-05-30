@@ -1,6 +1,6 @@
 import os
 
-from chama.config.settings import *
+from {{ cookiecutter.project_name }}.config.settings import *
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -13,7 +13,7 @@ INSTALLED_APPS.remove('django_extensions')
 
 INSTALLED_APPS += []
 
-ROOT_URLCONF = 'chama.config.urls'
+ROOT_URLCONF = '{{ cookiecutter.project_name }}.config.urls'
 
 REST_FRAMEWORK = {
     'DEFAULT_FILTER_BACKENDS': (

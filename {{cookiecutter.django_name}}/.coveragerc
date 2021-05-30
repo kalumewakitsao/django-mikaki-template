@@ -1,0 +1,27 @@
+[run]
+branch=True
+source={{ cookiecutter.project_name }}
+omit=
+    {{ cookiecutter.project_name }}/config/*
+    {{ cookiecutter.project_name }}/*/__init__.py
+    {{ cookiecutter.project_name }}/__init__.py
+    .git
+    __pycache__
+    docs/source/conf.py
+    old
+    build
+    dist
+    migrations
+    .tox
+    settings.py
+    *.pyc
+    .venv
+    venv
+    env
+
+[html]
+directory=coverage
+
+[report]
+show_missing=True
+exclude_lines=pragma: no cover
