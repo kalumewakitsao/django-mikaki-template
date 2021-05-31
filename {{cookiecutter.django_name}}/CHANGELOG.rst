@@ -1,4 +1,4 @@
-CHANGELOG FOR {{ cookiecutter.project_name }}
+CHANGELOG FOR {{ cookiecutter.project_name|upper }}
 =============================
 
 0.0.1a1 [31-05-2020]

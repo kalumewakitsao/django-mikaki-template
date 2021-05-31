@@ -1,5 +1,5 @@
 
-# {{ cookiecutter.project_name }} Title
+# {{ cookiecutter.project_name|upper }} Title
 
 {{ cookiecutter.project_description }}
 
