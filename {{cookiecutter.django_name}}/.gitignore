@@ -64,3 +64,6 @@ local_settings.py
 .env
 env.sh
 db.sqlite3
+
+# celery beat schedule
+celerybeat-schedule

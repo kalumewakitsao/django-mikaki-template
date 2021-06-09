@@ -43,6 +43,10 @@ INSTALLED_APPS = [
     'django_filters',
     'rest_framework',
     '{{ cookiecutter.project_name }}.common',
+    '{{ cookiecutter.project_name }}.app1',
+
+    # django celery results
+    'django_celery_results',
 ]
 
 MIDDLEWARE = [
@@ -139,3 +143,11 @@ REST_FRAMEWORK = {
         'django_filters.rest_framework.DjangoFilterBackend',
     ),
 }
+
+# https://docs.celeryproject.org/en/stable/django/first-steps-with-django.html
+# https://docs.celeryproject.org/en/stable/userguide/periodic-tasks.html#beat-custom-schedulers
+# Celery Configuration Options
+CELERY_TIMEZONE = "Africa/Nairobi"
+CELERY_TASK_TRACK_STARTED = True
+CELERY_TASK_TIME_LIMIT = 30 * 60
+CELERY_RESULT_BACKEND = 'django-db'
