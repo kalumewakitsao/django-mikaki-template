@@ -39,6 +39,11 @@ setup(
         'django-extensions',
         'django-filter',
         'psycopg2-binary',
+
+        # celery
+        'Celery',
+        # celery results
+        'django-celery-results'
     ],
     python_requires='>=3.7',
 )

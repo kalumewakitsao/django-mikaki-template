@@ -34,6 +34,19 @@ Following is a step by step guide on how to install the project and dependencies
   python manage.py runserver
 ```
 
+## Running Celery Worker and Beat
+
+The project has a sample application `app1` that can be used as a starter app, which has a sample task that runs periodically.
+To demonstrate it run celery beat and celery worker.
+
+```bash
+  # celery beat
+  celery -A {{ cookiecutter.project_name }}.config beat -l INFO
+  
+  # celery worker
+  celery -A {{ cookiecutter.project_name }}.config worker -l INFO
+```
+
     
 ## Running Tests
 
