@@ -33,7 +33,7 @@ setup(
     ],
     install_requires=[
         'dj-database-url',
-        'Django==3.2',
+        'Django>=3.2.4',
         'ipython',
         'djangorestframework',
         'django-extensions',
