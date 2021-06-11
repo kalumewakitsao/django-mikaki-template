@@ -23,10 +23,10 @@ You then can proceed to generate your app from the template using the command:
   cookiecutter django-mikaki-template
 
   # directly from git
-  cookiecutter https://github.com/audreyr/cookiecutter-pypackage.git
+  cookiecutter https://github.com/kalumewakitsao/django-mikaki-template.git
 
   # or from a specific branch on git
-  cookiecutter https://github.com/audreyr/cookiecutter-pypackage.git --checkout develop
+  cookiecutter https://github.com/kalumewakitsao/django-mikaki-template.git --checkout celery
 ```
 
 Kindly note that you will be prompted for some required values important for generating your project including the following:
